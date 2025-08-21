@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./styles.css" />
     <script defer src="./script.js"></script>
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231a3d2f'/%3E%3Cpath d='M20 43c0-7 7-8 7-13 0-3-2-5-2-8 0-4 3-7 7-7s7 3 7 7c0 3-2 5-2 8 0 5 7 6 7 13H20z' fill='%23c8f3df'/%3E%3C/svg%3E" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230b4b38'/%3E%3Cpath d='M20 43c0-7 7-8 7-13 0-3-2-5-2-8 0-4 3-7 7-7s7 3 7 7c0 3-2 5-2 8 0 5 7 6 7 13H20z' fill='%23fae5c0'/%3E%3C/svg%3E" />
 
     <script type="application/ld+json">
       {
@@ -36,13 +36,7 @@
     <header class="site-header" id="top">
       <div class="container header-inner">
         <a href="./" class="brand" aria-label="Evergreen Chess Club home">
-          <span class="brand-mark" aria-hidden="true">
-            <svg viewBox="0 0 64 64" width="28" height="28" role="img" aria-label="">
-              <rect width="64" height="64" rx="12" fill="#1a3d2f"></rect>
-              <path d="M20 43c0-7 7-8 7-13 0-3-2-5-2-8 0-4 3-7 7-7s7 3 7 7c0 3-2 5-2 8 0 5 7 6 7 13H20z" fill="#c8f3df"></path>
-            </svg>
-          </span>
-          <span class="brand-name">Evergreen Chess Club</span>
+          <img class="brand-img" src="./icon_and_name.jpg" alt="Evergreen Chess Club" />
         </a>
         <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
           <span></span><span></span><span></span>
@@ -79,13 +73,13 @@
             <svg viewBox="0 0 600 400" role="img" aria-label="">
               <defs>
                 <linearGradient id="grad" x1="0" x2="1" y1="0" y2="1">
-                  <stop offset="0%" stop-color="#c8f3df"/>
-                  <stop offset="100%" stop-color="#e8fff4"/>
+                  <stop offset="0%" stop-color="#fae5c0"/>
+                  <stop offset="100%" stop-color="#fff3dd"/>
                 </linearGradient>
               </defs>
               <rect x="0" y="0" width="600" height="400" fill="url(#grad)" rx="16"/>
               <g transform="translate(40,40)">
-                <rect x="0" y="0" width="320" height="320" fill="#1a3d2f" rx="12" opacity="0.08"/>
+                <rect x="0" y="0" width="320" height="320" fill="#0b4b38" rx="12" opacity="0.08"/>
                 <!-- simple board -->
                 <g>
                   <!-- draw a 8x8 board with alternating squares -->
@@ -93,8 +87,8 @@
                 </g>
               </g>
               <g transform="translate(390,60)">
-                <rect x="0" y="0" width="170" height="280" rx="14" fill="#1a3d2f" opacity="0.06"/>
-                <path d="M40 210c0-30 30-35 30-55 0-12-9-20-9-32 0-16 12-28 28-28s28 12 28 28c0 12-9 20-9 32 0 20 30 25 30 55H40z" fill="#1a3d2f" opacity="0.18"/>
+                <rect x="0" y="0" width="170" height="280" rx="14" fill="#0b4b38" opacity="0.06"/>
+                <path d="M40 210c0-30 30-35 30-55 0-12-9-20-9-32 0-16 12-28 28-28s28 12 28 28c0 12-9 20-9 32 0 20 30 25 30 55H40z" fill="#0b4b38" opacity="0.18"/>
               </g>
             </svg>
           </div>
@@ -153,8 +147,8 @@
             <div class="feature-media">
               <figure class="ph-img" aria-labelledby="ph1">
                 <svg viewBox="0 0 600 360" role="img" aria-label="Event photo placeholder">
-                  <rect width="600" height="360" rx="16" fill="#1a3d2f" opacity="0.08"/>
-                  <path d="M200 250c0-30 30-35 30-55 0-12-9-20-9-32 0-16 12-28 28-28s28 12 28 28c0 12-9 20-9 32 0 20 30 25 30 55H200z" fill="#1a3d2f" opacity="0.2"/>
+                  <rect width="600" height="360" rx="16" fill="#0b4b38" opacity="0.08"/>
+                  <path d="M200 250c0-30 30-35 30-55 0-12-9-20-9-32 0-16 12-28 28-28s28 12 28 28c0 12-9 20-9 32 0 20 30 25 30 55H200z" fill="#0b4b38" opacity="0.2"/>
                 </svg>
                 <figcaption id="ph1">Replace with real event photo</figcaption>
               </figure>
@@ -189,13 +183,8 @@
     <footer class="site-footer">
       <div class="container footer-inner">
         <div class="brand-row">
-          <span class="brand-mark" aria-hidden="true">
-            <svg viewBox="0 0 64 64" width="24" height="24">
-              <rect width="64" height="64" rx="12" fill="#1a3d2f"></rect>
-              <path d="M20 43c0-7 7-8 7-13 0-3-2-5-2-8 0-4 3-7 7-7s7 3 7 7c0 3-2 5-2 8 0 5 7 6 7 13H20z" fill="#c8f3df"></path>
-            </svg>
-          </span>
-          <strong>Evergreen Chess Club</strong>
+          <img class="brand-img" src="./icon_and_name.jpg" alt="Evergreen Chess Club" />
+          <strong class="sr-only">Evergreen Chess Club</strong>
         </div>
         <ul class="footer-links">
           <li><a href="#about">About</a></li>
